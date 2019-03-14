@@ -1,4 +1,4 @@
-## Todo example with NodeJS, GraphQL, MongoDB, React and Docker
+## Todo list example with NodeJS, GraphQL, MongoDB, React and Docker
 
     Simple todo list
 
