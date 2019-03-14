@@ -1,0 +1,32 @@
+{
+  "name": "graphql-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Armen Sargsyan",
+  "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [
+    "react",
+    "todo"
+  ],
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "apollo-boost": "^0.3.1",
+    "react-apollo": "^2.5.2",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "graphql-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "debug": "node --nolazy --inspect-brk=5858 server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql"
+  ],
+  "author": "Armen Sargsyan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.17"
+  }
+}

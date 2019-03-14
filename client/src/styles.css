@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo-ul {
+  list-style: none;
+  padding: 0;
+}
+.todo-ul li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-ul li p,
+.todo-ul li > div {
+  flex: 1;
+}
+.todo-ul li > div:nth-child(2) {
+  text-align: left;
+  margin-left: 10px;
+}
+.todo-ul li p,
+.todo-ul li > div:nth-child(1) {
+  text-align: right;
+  margin-right: 10px;
+}
+input[type="text"] {
+  padding: 10px;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  min-width: 80px;
+}
+.btn-edit {
+  background: #94c93d;
+}
+.btn-delete {
+  background: #f00;
+}
+.add-todo input {
+  min-width: 400px;
+}
